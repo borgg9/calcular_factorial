@@ -7,7 +7,7 @@ public class Bucle_for_factorial {
         // Número para calcular su factorail
         int num_calcular = Integer.parseInt(JOptionPane.showInputDialog("faltorial de ? "));
 
-        int factorial = 1;
+        long factorial = 1L; 
         for (int i = num_calcular; i > 0; i--){
             factorial *= i;
         }
